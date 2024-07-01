@@ -26,9 +26,6 @@ const getTodaysDate = () => {
 
   daySpan.textContent = dayList[todayDay];
   timeSpan.textContent = hour + ":" + minute + ":" + second;
-
-  console.log(today);
-  console.log(dayList[todayDay], hour, minute, second);
 };
 
 setInterval(() => {
